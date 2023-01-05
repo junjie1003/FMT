@@ -1,0 +1,81 @@
+{
+    "job": {
+        "0": "admin.",
+        "1": "blue-collar",
+        "2": "entrepreneur",
+        "3": "housemaid",
+        "4": "management",
+        "5": "retired",
+        "6": "self-employed",
+        "7": "services",
+        "8": "student",
+        "9": "technician",
+        "10": "unemployed",
+        "11": "unknown"
+    },
+    "marital": {
+        "0": "divorced",
+        "1": "married",
+        "2": "single",
+        "3": "unknown"
+    },
+    "education": {
+        "0": "basic.4y",
+        "1": "basic.6y",
+        "2": "basic.9y",
+        "3": "high.school",
+        "4": "illiterate",
+        "5": "professional.course",
+        "6": "university.degree",
+        "7": "unknown"
+    },
+    "default": {
+        "0": "no",
+        "1": "yes",
+        "2": "unknown"
+    },
+    "housing": {
+        "0": "no",
+        "1": "yes",
+        "2": "unknown"
+    },
+    "loan": {
+        "0": "no",
+        "1": "yes",
+        "2": "unknown"
+    },
+    "contact": {
+        "0": "cellular",
+        "1": "telephone"
+    },
+    "month": {
+        "0": "jan",
+        "1": "feb",
+        "2": "mar",
+        "3": "apr",
+        "4": "may",
+        "5": "jun",
+        "6": "jul",
+        "7": "aug",
+        "8": "sep",
+        "9": "oct",
+        "10": "nov",
+        "11": "dec"
+    },
+    "day_of_week": {
+        "0": "mon",
+        "1": "tue",
+        "2": "wed",
+        "3": "thu",
+        "4": "fri"
+    },
+    "poutcome": {
+        "0": "failure",
+        "1": "nonexistent",
+        "2": "success"
+    },
+    "y": {
+        "0": "no",
+        "1": "yes"
+    }
+}
