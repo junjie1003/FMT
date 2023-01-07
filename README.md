@@ -107,7 +107,7 @@ python baselines/Fair360/rew.py -d german -p age
 python baselines/Fair360/rew.py -d german -p sex
 ```
 
-(3) The comparison method CARE is implemented in 'baselines/Socrates-1.4.0'. To obtain the modified model, you can run the following command in the Socrates-1.4.0 folder.
+(3) The comparison method CARE is implemented in `baselines/Socrates-1.4.0`. To obtain the modified model, you can run the following command in the Socrates-1.4.0 folder.
 
 ```bash
 time python source/run_causal.py --spec benchmark/causal/credit/spec_age_processed.json --algorithm causal --dataset credit
