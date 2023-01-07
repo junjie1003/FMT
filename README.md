@@ -107,6 +107,21 @@ python baselines/Fair360/rew.py -d german -p age
 python baselines/Fair360/rew.py -d german -p sex
 ```
 
+(3) The comparison method CARE is implemented in 'baselines/Socrates-1.4.0'. To obtain the modified model, you can run the following command in the Socrates-1.4.0 folder.
+
+```bash
+time python source/run_causal.py --spec benchmark/causal/credit/spec_age_processed.json --algorithm causal --dataset credit
+time python source/run_causal.py --spec benchmark/causal/credit/spec_gender_processed.json --algorithm causal --dataset credit
+
+time python source/run_causal.py --spec benchmark/causal/bank/spec_age_processed.json --algorithm causal --dataset bank
+
+time python source/run_causal.py --spec benchmark/causal/census/spec_race_processed.json --algorithm causal --dataset census
+time python source/run_causal.py --spec benchmark/causal/census/spec_gender_processed.json --algorithm causal --dataset census
+
+time python source/run_causal.py --spec benchmark/causal/compas/spec_race_processed.json --algorithm causal --dataset compas
+time python source/run_causal.py --spec benchmark/causal/compas/spec_gender_processed.json --algorithm causal --dataset compas
+```
+
 ### RQ6: Contribution of Model Transformation
 
 This RQ investigates how much the model transformation in our framework contributes to the effectiveness of FMT. We conduct an ablation study with the variants of $FMT^{-s}$ and $FMT^{−sl}$, which are implemented as `fmt_variants.py`. The results are included in the `RQ6_results/` folder.
