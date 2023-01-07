@@ -1,0 +1,82 @@
+{
+  "model": {
+    "shape": "(1,13)",
+    "bounds": "[(1,9),(0,6),(0,14),(0,15),(0,6),(0,13),(0,5),(0,1),(0,1),(0,99),(0,43),(0,9),(0,40)]",
+    "distribution": "[(3.4094455852156056,1.357338767040547),(0.7461696414468488,1.4695076155286977),(1.403064286842521,1.0890286241928473),(3.388216711419997,3.438096677105423),(1.0538935397251619,1.1728252709309366),(4.739251303111673,2.9860401802672367),(2.397946611909651,1.2259509865839064),(0.860811878060338,0.3461427287269975),(0.6760069499289212,0.4679973862926141),(1.0814405307218449,7.532678339943029),(0.8790080555994314,3.984635635193236),(3.942599905228242,1.2453635894783546),(1.5047543831938082,5.63136239651268)]",
+    "layers": [
+      {
+        "type": "linear",
+        "weights": "/home/zhangyingyi/fairness/Fairness/model_txt/weights/adult_original_model_1.txt",
+        "bias": "/home/zhangyingyi/fairness/Fairness/model_txt/bias/adult_original_model_1.txt"
+      },
+      {
+        "type": "function",
+        "func": "relu"
+      },
+      {
+        "type": "linear",
+        "weights": "/home/zhangyingyi/fairness/Fairness/model_txt/weights/adult_original_model_2.txt",
+        "bias": "/home/zhangyingyi/fairness/Fairness/model_txt/bias/adult_original_model_2.txt"
+      },
+      {
+        "type": "function",
+        "func": "relu"
+      },
+      {
+        "type": "linear",
+        "weights": "/home/zhangyingyi/fairness/Fairness/model_txt/weights/adult_original_model_3.txt",
+        "bias": "/home/zhangyingyi/fairness/Fairness/model_txt/bias/adult_original_model_3.txt"
+      },
+      {
+        "type": "function",
+        "func": "relu"
+      },
+      {
+        "type": "linear",
+        "weights": "/home/zhangyingyi/fairness/Fairness/model_txt/weights/adult_original_model_4.txt",
+        "bias": "/home/zhangyingyi/fairness/Fairness/model_txt/bias/adult_original_model_4.txt"
+      },
+      {
+        "type": "function",
+        "func": "relu"
+      },
+      {
+        "type": "linear",
+        "weights": "/home/zhangyingyi/fairness/Fairness/model_txt/weights/adult_original_model_5.txt",
+        "bias": "/home/zhangyingyi/fairness/Fairness/model_txt/bias/adult_original_model_5.txt"
+      },
+      {
+        "type": "function",
+        "func": "relu"
+      },
+      {
+        "type": "linear",
+        "weights": "/home/zhangyingyi/fairness/Fairness/model_txt/weights/adult_original_model_6.txt",
+        "bias": "/home/zhangyingyi/fairness/Fairness/model_txt/bias/adult_original_model_6.txt"
+      }
+    ]
+  },
+  "assert": {
+    "fairness": "[7]",
+    "sens_cluster": "2",
+    "sens_threshold": "3",
+    "solve_option": "solve_fairness",
+    "timeout": 15,
+    "datapath": "benchmark/causal/census/data_di_race_gaussian",
+    "datalen_tot": 3493,
+    "datalen": 100,
+    "resultpath": "benchmark/causal/census/result",
+    "acc_datapath": "benchmark/causal/census/data_us",
+    "acc_datalen_tot": 1000,
+    "acc_datalen": 1000,
+    "class_n": 0,
+    "repair_num": 13,
+    "do_layer": "[0,2,4,6,8]",
+    "do_neuron": "[[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63],[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31],[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],[0,1,2,3,4,5,6,7],[0,1,2,3]]",
+    "stepsize": 16,
+    "acc_alpha": 0.4,
+    "criteria": 0.02,
+    "error": 0.001,
+    "confidence": 0.01
+  }
+}
