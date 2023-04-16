@@ -2,15 +2,15 @@ import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 
-labels = ["FMT$^{-s}$", "FMT$^{-sl}$", "FMT$^{rand}$"]
+labels = ["FMT$^{-s}$", "FMT$^{-sl}$", "FMT$^{last}$", "FMT$^{rand}$"]
 
-single = [-0.0096, -0.0083, -0.0048]
-dual = [-0.0033, 0.0003, -0.0034]
+single = [-0.0096, -0.0083, 0.0005, -0.0048]
+dual = [-0.0033, 0.0003, 0.0019, -0.0034]
 
-plt.figure(figsize=(20, 5))
+plt.figure(figsize=(25, 5))
 plt.rc("font", family="Times New Roman", size=16)
 
-plt.subplot(132)
+plt.subplot(143)
 x = np.arange(len(labels))  # x轴刻度标签位置
 width = 0.1  # 柱子的宽度
 
@@ -29,4 +29,4 @@ plt.ylim(-0.02, 0.02)
 
 plt.grid(linestyle="--", alpha=0.3)
 plt.legend()
-plt.savefig(fname="../RQ7_results/ablation_accuracy.pdf", bbox_inches="tight")
+plt.savefig(fname="../RQ6&7_results/ablation_accuracy.pdf", bbox_inches="tight")

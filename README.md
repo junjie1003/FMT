@@ -28,11 +28,16 @@ We use the 4 default datasets supported by the AIF360 toolkit. **When running t
 
 ![datasets](pictures/datasets.png)
 
+Dare uses half of the training set to train the model, and our data partitioning is stored in the data folder, while the original model used is stored in the models folder.
+
+Dare needs to use the trained historical model to perform the data augmentation process and collect training data for fine-tuning. However, due to the large number of historical models, it is not possible to upload all of them. Therefore, we provide the intermediate results of data augmentation, 'dataset_model_modify' is used to mark the selected training data, 'dataset_model_rs' is the standard output collected for training data. In addition, another time-consuming part is generating adversarial samples, so we store adversarial data in the adv folder. You can refer to [https://mega.nz/folder/1alCBThJ#JLh9CC6lY0FpOIP6icgh8w](https://mega.nz/folder/1alCBThJ#JLh9CC6lY0FpOIP6icgh8w) for all the data files used for DARE.
+
 ## Scripts and Results
 
 The repository contains the following files and folders:
 
 - `baselines/` contains code for implementing four state-of-the-art fairness improvement approaches (i.e., REW, ADV, ROC and CARE).
+- `DARE/` contains code for the implementation of our DARE method.
 - `data/` contains original datasets and our processed data.
 - `datasets/` contains code for processing raw datasets.
 - `features/` contains json files for feature mapping when processing datasets.
@@ -45,7 +50,8 @@ The repository contains the following files and folders:
 - `requirements.txt` is the list of required packages and corresponding versions for environment setup.
 - `train.py` is the code for training source models used for fairness improvement.
 - `utils.py` is the code for some utility functions used by our methods.
-- `RQ5_results/`, `RQ6_results/`, and `RQ7_results/` contain the raw results of the models after applying different fairness improvement methods/strategies. These folders also contain some plots.
+- `wilcoxon_test_dare.py`, `wilcoxon_test_fmt.py` contain the code for calculating the Wilcoxon signed-rank test.
+- `RQ5_results/`, `RQ6&7_results/` contain the raw results of the models after applying different fairness improvement methods/strategies. These folders also contain some plots.
 
 ## Reproduction
 
@@ -105,21 +111,6 @@ python baselines/Fair360/rew.py -d compas -p sex
 
 python baselines/Fair360/rew.py -d german -p age
 python baselines/Fair360/rew.py -d german -p sex
-```
-
-(3) The comparison method CARE is implemented in `baselines/Socrates-1.4.0`. To obtain the modified model, you can run the following command in the Socrates-1.4.0 folder.
-
-```bash
-time python source/run_causal.py --spec benchmark/causal/credit/spec_age_processed.json --algorithm causal --dataset credit
-time python source/run_causal.py --spec benchmark/causal/credit/spec_gender_processed.json --algorithm causal --dataset credit
-
-time python source/run_causal.py --spec benchmark/causal/bank/spec_age_processed.json --algorithm causal --dataset bank
-
-time python source/run_causal.py --spec benchmark/causal/census/spec_race_processed.json --algorithm causal --dataset census
-time python source/run_causal.py --spec benchmark/causal/census/spec_gender_processed.json --algorithm causal --dataset census
-
-time python source/run_causal.py --spec benchmark/causal/compas/spec_race_processed.json --algorithm causal --dataset compas
-time python source/run_causal.py --spec benchmark/causal/compas/spec_gender_processed.json --algorithm causal --dataset compas
 ```
 
 ### RQ6: Contribution of Model Transformation

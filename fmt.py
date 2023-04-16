@@ -134,7 +134,8 @@ def conf_single(source_model, regression_model, x_train, x_mutation):
     pred = source_model.predict(x_mutation)
     print("pred shape: " + str(pred.shape))
 
-    gt = regression_model.predict(x_mutation)
+    # gt = regression_model.predict(x_mutation)
+    gt = source_model.predict(x_mutation)
     print("gt shape: " + str(gt.shape))
 
     indices = []
@@ -161,7 +162,8 @@ def conf_dual(source_model, regression_model, x_train, x_mutation):
     pred = source_model.predict(x_mutation)
     print("pred shape: " + str(pred.shape))
 
-    gt = regression_model.predict(x_mutation)
+    # gt = regression_model.predict(x_mutation)
+    gt = source_model.predict(x_mutation)
     print("gt shape: " + str(gt.shape))
 
     for i in range(len(x_train)):
@@ -269,6 +271,98 @@ def FMT(dataset, protected, method, learning_rate, batch_size, input_shape, repe
     )
 
 
+def FMT_last(dataset, protected, method, learning_rate, batch_size, input_shape, repeat_index):
+    """
+    Fairness improvement by Model Transformation.
+    """
+    source_model = load_model("models/%s_source_model.h5" % dataset)
+
+    column_names = open("data/raw/%s/column_names" % dataset, "r", encoding="UTF-8").read().splitlines()
+    print(len(column_names))
+    print(column_names)
+
+    sens_index = column_names.index(protected)
+
+    x_train = np.load("data/processed/%s/%s_x_train.npy" % (dataset, dataset))
+    y_train = np.load("data/processed/%s/%s_y_train.npy" % (dataset, dataset))
+    x_test = np.load("data/processed/%s/%s_x_test.npy" % (dataset, dataset))
+    y_test = np.load("data/processed/%s/%s_y_test.npy" % (dataset, dataset))
+    x_mutation = np.load("data/processed/%s/%s_x_mutation_%s.npy" % (dataset, dataset, protected))
+
+    scaler = MinMaxScaler()
+    scaler.fit(x_train)
+    x_train = scaler.transform(x_train)
+    x_test = scaler.transform(x_test)
+    x_mutation = scaler.transform(x_mutation)
+
+    x_reverse = reverse(x_train, sens_index)
+    important_pos = slice_model(source_model, x_train, x_reverse, input_shape)
+
+    regression_model = sub_model(source_model, chosen_layer=5)
+    optimizer = optimizers.Adam(learning_rate)
+    loss = losses.mean_squared_error
+    metric = metrics.categorical_accuracy
+    regression_model.compile(optimizer=optimizer, loss=loss, metrics=[metric])
+
+    if method == "single":
+        x_mutation, gt = conf_single(source_model, regression_model, x_train, x_mutation)
+    elif method == "dual":
+        x_mutation, gt = conf_dual(source_model, regression_model, x_train, x_mutation)
+
+    w_all = []
+    b_all = []
+    for layer in regression_model.layers:
+        weights = layer.get_weights()
+        w = weights[0].tolist()
+        b = weights[1].tolist()
+        w_all.append(w)
+        b_all.append(b)
+
+    change = change_weights(important_pos, input_shape)
+    for epoch in range(EPOCHS):
+        print("Epoch %d\n" % epoch)
+
+        regression_model.fit(x=x_mutation, y=gt, batch_size=batch_size, epochs=1, verbose=2)
+        new_w = []
+        new_b = []
+        for layer in regression_model.layers:
+            weights = layer.get_weights()
+            w = weights[0].tolist()
+            b = weights[1].tolist()
+            new_w.append(w)
+            new_b.append(b)
+        change_w = get_weight(w_all, new_w, change, input_shape)
+
+        i = 0
+        for layer in regression_model.layers:
+            wei = []
+            cw = np.array(change_w[i])
+            wei.append(cw)
+
+            b = np.array(new_b[i])
+            wei.append(b)
+
+            layer.set_weights(wei)
+            i += 1
+
+    new_model = combine_model(regression_model, source_model, input_shape, chosen_layer=5)
+    loss = losses.categorical_crossentropy
+    metric = metrics.categorical_accuracy
+    new_model.compile(optimizer="adam", loss=loss, metrics=[metric])
+
+    loss, accuracy = new_model.evaluate(x_test, y_test)
+    print(loss)
+    print(accuracy)
+
+    save_dir = os.path.join(os.getcwd(), "models", "fmt_last")
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir)
+
+    new_model.save(
+        f"{save_dir}/fmt_last_{method}_{dataset}_{protected}_{str(learning_rate)}_{str(batch_size)}_{str(repeat_index)}.h5"
+    )
+
+
 def get_fairness(learning_rate, batch_size):
     x_train = np.load("data/processed/%s/%s_x_train.npy" % (opt.dataset, opt.dataset))
     y_train = np.load("data/processed/%s/%s_y_train.npy" % (opt.dataset, opt.dataset))
@@ -353,8 +447,8 @@ def get_fairness(learning_rate, batch_size):
     for i in range(len(performance_index)):
         print("%s-%s: %s=%f\n" % (opt.dataset, opt.protected, performance_index[i], round_result_source[i]))
 
-    val_name = "RQ5_results/fmt/fmt_{}_{}_{}_{}_{}.txt".format(
-        opt.method, opt.dataset, opt.protected, str(learning_rate), str(batch_size)
+    val_name = (
+        f"RQ6&7_results/last/fmt_last_{opt.method}_{opt.dataset}_{opt.protected}_{str(learning_rate)}_{str(batch_size)}.txt"
     )
     fout = open(val_name, "w")
 
@@ -366,11 +460,10 @@ def get_fairness(learning_rate, batch_size):
     for r in range(repeat_time):
         print(r)
 
-        FMT(opt.dataset, opt.protected, opt.method, learning_rate, batch_size, input_shape, repeat_index=r)
+        FMT_last(opt.dataset, opt.protected, opt.method, learning_rate, batch_size, input_shape, repeat_index=r)
 
         new_model = load_model(
-            "models/fmt/fmt_%s_%s_%s_%s_%s_%s.h5"
-            % (opt.method, opt.dataset, opt.protected, str(learning_rate), str(batch_size), r)
+            f"models/fmt_last/fmt_last_{opt.method}_{opt.dataset}_{opt.protected}_{str(learning_rate)}_{str(batch_size)}_{str(r)}.h5"
         )
 
         y_pred = new_model.predict(dataset_orig_test.features)
@@ -419,8 +512,8 @@ def parse_opt():
 
 
 def main(opt):
-    if not os.path.exists("RQ5_results/fmt"):
-        os.makedirs("RQ5_results/fmt")
+    if not os.path.exists("RQ6&7_results/last"):
+        os.makedirs("RQ6&7_results/last")
 
     learning_rate = [1e-5, 1e-4, 1e-3]
     batch_size = [16, 32, 64, 128]

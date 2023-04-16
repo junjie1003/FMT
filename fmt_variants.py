@@ -461,14 +461,9 @@ def get_fairness(learning_rate, batch_size):
     for i in range(len(performance_index)):
         print("%s-%s: %s=%f\n" % (opt.dataset, opt.protected, performance_index[i], round_result_source[i]))
 
-    if opt.variant == "remove_s" or opt.variant == "remove_sl":
-        val_name = "RQ6_results/{}/fmt_{}_{}_{}_{}_{}_{}.txt".format(
-            opt.variant, opt.variant, opt.method, opt.dataset, opt.protected, str(learning_rate), str(batch_size)
-        )
-    elif opt.variant == "rand":
-        val_name = "RQ7_results/{}/fmt_{}_{}_{}_{}_{}_{}.txt".format(
-            opt.variant, opt.variant, opt.method, opt.dataset, opt.protected, str(learning_rate), str(batch_size)
-        )
+    val_name = "RQ6&7_results/{}/fmt_{}_{}_{}_{}_{}_{}.txt".format(
+        opt.variant, opt.variant, opt.method, opt.dataset, opt.protected, str(learning_rate), str(batch_size)
+    )
     fout = open(val_name, "w")
 
     results = {}
@@ -540,14 +535,14 @@ def parse_opt():
 
 
 def main(opt):
-    if not os.path.exists("RQ6_results/remove_s"):
-        os.makedirs("RQ6_results/remove_s")
+    if not os.path.exists("RQ6&7_results/remove_s"):
+        os.makedirs("RQ6&7_results/remove_s")
 
-    if not os.path.exists("RQ6_results/remove_sl"):
-        os.makedirs("RQ6_results/remove_sl")
+    if not os.path.exists("RQ6&7_results/remove_sl"):
+        os.makedirs("RQ6&7_results/remove_sl")
 
-    if not os.path.exists("RQ7_results/rand"):
-        os.makedirs("RQ7_results/rand")
+    if not os.path.exists("RQ6&7_results/rand"):
+        os.makedirs("RQ6&7_results/rand")
 
     task = opt.dataset.capitalize() + "-" + opt.protected.capitalize()
     method = opt.method
