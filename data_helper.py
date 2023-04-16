@@ -1,13 +1,13 @@
-import argparse
-import json
-import numpy as np
 import os
+import json
+import argparse
+import numpy as np
 import pandas as pd
 
 from sklearn.model_selection import train_test_split
 
-from datasets import AdultDataset, BankDataset, CompasDataset, GermanDataset
 from mutation import mutation
+from datasets import AdultDataset, BankDataset, CompasDataset, GermanDataset
 
 
 def default_preprocessing_compas(df):

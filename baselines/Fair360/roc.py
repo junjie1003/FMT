@@ -1,20 +1,22 @@
-import argparse
-import multiprocessing
-import numpy as np
 import os
-import pandas as pd
 import sys
+import argparse
 import warnings
+import multiprocessing
 
-np.set_printoptions(suppress=True)
+import numpy as np
+import pandas as pd
+
 warnings.filterwarnings("ignore")
+np.set_printoptions(suppress=True)
 
-from aif360.algorithms.postprocessing.reject_option_classification import RejectOptionClassification
-from aif360.datasets import BinaryLabelDataset
-from itertools import product
 from numpy import mean, std
+from itertools import product
+from keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
-from tensorflow.keras.models import load_model
+from aif360.datasets import BinaryLabelDataset
+from aif360.algorithms.postprocessing.reject_option_classification import RejectOptionClassification
+
 
 sys.path.append(os.path.abspath("/root/FMT"))
 from utils import get_groups, measure_final_score

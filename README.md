@@ -5,18 +5,18 @@ Particularly, the implementation and experimental results of our paper regarding
 
 ## Experimental Environment
 
-We use Python 3.7 for our experiments. We use the IBM AI Fairness 360 (AIF360) toolkit for implementing fairness improvement methods and computing fairness metrics.
+We use Python 3.6 for our experiments. We use the IBM AI Fairness 360 (AIF360) toolkit for implementing fairness improvement methods and computing fairness metrics.
 
-Installation instructions for Python 3.7 and AIF360 can be found on [https://github.com/Trusted-AI/AIF360](https://github.com/Trusted-AI/AIF360). That page provides several ways for the installation. We recommend creating a virtual environment for it (as shown below), because AIF360 requires specific versions of many Python packages which may conflict with other projects on your system. If you would like to try other installation ways or encounter any errors during the installation proces, please refer to the page ([https://github.com/Trusted-AI/AIF360](https://github.com/Trusted-AI/AIF360)) for help.
+Installation instructions for Python 3.6 and AIF360 can be found on [https://github.com/Trusted-AI/AIF360](https://github.com/Trusted-AI/AIF360). That page provides several ways for the installation. We recommend creating a virtual environment for it (as shown below), because AIF360 requires specific versions of many Python packages which may conflict with other projects on your system. If you would like to try other installation ways or encounter any errors during the installation proces, please refer to the page ([https://github.com/Trusted-AI/AIF360](https://github.com/Trusted-AI/AIF360)) for help.
 
 ### Conda
 
 Conda is recommended for all configurations. [Miniconda](https://conda.io/miniconda.html) is sufficient if you do not already have conda installed.
 
-Then, to create a new Python 3.7 environment, run:
+Then, to create a new Python 3.6 environment, run:
 
 ```bash
-conda create --name fairness python=3.7
+conda create --name fairness python=3.6
 conda activate fairness
 pip install -r requirements.txt
 # pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple

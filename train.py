@@ -1,17 +1,18 @@
-import argparse
-import multiprocessing
-import numpy as np
 import os
 import random
-import tensorflow as tf
+import argparse
 import warnings
+import multiprocessing
 
-np.set_printoptions(suppress=True)
+import numpy as np
+import tensorflow as tf
+
 warnings.filterwarnings("ignore")
+np.set_printoptions(suppress=True)
 
 from itertools import product
+from keras.callbacks import EarlyStopping
 from sklearn.preprocessing import MinMaxScaler
-from tensorflow.keras.callbacks import EarlyStopping
 
 from utils import MLP
 

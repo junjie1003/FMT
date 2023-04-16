@@ -1,5 +1,5 @@
-import numpy as np
 import random
+import numpy as np
 
 
 def non_sensitive_distribution(x, non_sens, column_names):

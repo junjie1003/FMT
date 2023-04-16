@@ -1,22 +1,25 @@
-import argparse
-import multiprocessing
-import numpy as np
 import os
-import pandas as pd
 import sys
-import tensorflow._api.v2.compat.v1 as tf
+import argparse
 import warnings
+import multiprocessing
 
-np.set_printoptions(suppress=True)
+import numpy as np
+import pandas as pd
+import tensorflow as tf
+
+# import tensorflow._api.v2.compat.v1 as tf
+
 tf.disable_v2_behavior()
 warnings.filterwarnings("ignore")
+np.set_printoptions(suppress=True)
 
-from aif360.algorithms.inprocessing.adversarial_debiasing import AdversarialDebiasing
-from aif360.datasets import BinaryLabelDataset
-from itertools import product
 from numpy import mean, std
+from itertools import product
+from keras.models import load_model
 from sklearn.preprocessing import MinMaxScaler
-from tensorflow.keras.models import load_model
+from aif360.datasets import BinaryLabelDataset
+from aif360.algorithms.inprocessing.adversarial_debiasing import AdversarialDebiasing
 
 sys.path.append(os.path.abspath("/root/FMT"))
 from utils import get_groups, measure_final_score
