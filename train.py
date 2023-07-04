@@ -11,8 +11,8 @@ warnings.filterwarnings("ignore")
 np.set_printoptions(suppress=True)
 
 from itertools import product
-from keras.callbacks import EarlyStopping
 from sklearn.preprocessing import MinMaxScaler
+from tensorflow.keras.callbacks import EarlyStopping
 
 from utils import MLP
 

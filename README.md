@@ -16,7 +16,7 @@ Conda is recommended for all configurations. [Miniconda](https://conda.io/minic
 Then, to create a new Python 3.6 environment, run:
 
 ```bash
-conda create --name fmt python=3.6
+conda create --name fmt python=3.7
 conda activate fmt
 pip install -r requirements.txt
 # pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple

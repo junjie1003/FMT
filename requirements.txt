@@ -4,5 +4,6 @@ fairlearn==0.7.0
 graphviz==0.19.1
 Keras==2.3.1
 openpyxl==3.1.2
+protobuf==3.20
 Shapely==1.8.5
-tensorflow==2.0.0
+tensorflow==2.2.0

@@ -9,14 +9,13 @@ import pandas as pd
 warnings.filterwarnings("ignore")
 np.set_printoptions(suppress=True)
 
+from aif360.datasets import BinaryLabelDataset
 from copy import deepcopy
 from numpy import mean, std
-from itertools import product
-from keras import backend as K
-from keras.models import load_model
-from keras import losses, metrics, optimizers
-from aif360.datasets import BinaryLabelDataset
 from sklearn.preprocessing import MinMaxScaler
+from tensorflow.keras import backend as K
+from tensorflow.keras import losses, metrics, optimizers
+from tensorflow.keras.models import load_model
 
 from utils import combine_model, get_groups, measure_final_score, reverse, sub_model
 
@@ -135,8 +134,8 @@ def conf_single(source_model, regression_model, x_train, x_mutation):
     pred = source_model.predict(x_mutation)
     print("pred shape: " + str(pred.shape))
 
-    # gt = regression_model.predict(x_mutation)
-    gt = source_model.predict(x_mutation)
+    gt = regression_model.predict(x_mutation)
+    # gt = source_model.predict(x_mutation)
     print("gt shape: " + str(gt.shape))
 
     indices = []
@@ -163,8 +162,8 @@ def conf_dual(source_model, regression_model, x_train, x_mutation):
     pred = source_model.predict(x_mutation)
     print("pred shape: " + str(pred.shape))
 
-    # gt = regression_model.predict(x_mutation)
-    gt = source_model.predict(x_mutation)
+    gt = regression_model.predict(x_mutation)
+    # gt = source_model.predict(x_mutation)
     print("gt shape: " + str(gt.shape))
 
     for i in range(len(x_train)):

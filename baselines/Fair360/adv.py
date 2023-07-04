@@ -14,12 +14,12 @@ tf.disable_v2_behavior()
 warnings.filterwarnings("ignore")
 np.set_printoptions(suppress=True)
 
-from numpy import mean, std
-from itertools import product
-from keras.models import load_model
-from sklearn.preprocessing import MinMaxScaler
-from aif360.datasets import BinaryLabelDataset
 from aif360.algorithms.inprocessing.adversarial_debiasing import AdversarialDebiasing
+from aif360.datasets import BinaryLabelDataset
+from itertools import product
+from numpy import mean, std
+from sklearn.preprocessing import MinMaxScaler
+from tensorflow.keras.models import load_model
 
 sys.path.append(os.path.abspath("/root/FMT"))
 from utils import get_groups, measure_final_score

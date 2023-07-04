@@ -1,11 +1,11 @@
 import json
 import numpy as np
 
-from copy import deepcopy
-from keras.models import Sequential
-from keras.layers import Dense, InputLayer
 from aif360.metrics import ClassificationMetric
+from copy import deepcopy
 from sklearn.metrics import accuracy_score, f1_score, matthews_corrcoef, precision_score, recall_score
+from tensorflow.keras.layers import Dense, InputLayer
+from tensorflow.keras.models import Sequential
 
 
 def combine_model(regression_model, source_model, input_shape, chosen_layer=3):

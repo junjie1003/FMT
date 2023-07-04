@@ -7,13 +7,13 @@ import pandas as pd
 warnings.filterwarnings("ignore")
 np.set_printoptions(suppress=True)
 
+from aif360.datasets import BinaryLabelDataset
 from copy import deepcopy
 from numpy import mean, std
-from keras import backend as K
-from keras.models import load_model
-from keras import losses, metrics, optimizers
-from aif360.datasets import BinaryLabelDataset
 from sklearn.preprocessing import MinMaxScaler
+from tensorflow.keras import backend as K
+from tensorflow.keras import losses, metrics, optimizers
+from tensorflow.keras.models import load_model
 
 from utils import combine_model, get_groups, measure_final_score, reverse, sub_model
 
