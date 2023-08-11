@@ -60,22 +60,39 @@ approaches.remove("Dare")
 for app in approaches:
     print(f"\nDare v.s. {app}\n")
     w1, p1 = wilcoxon(df["Dare"].to_list(), df[app].to_list(), alternative="greater")
-    print("Wilcoxon Test统计量:", w1)
-    print("单侧P值:", p1)
+    print("Wilcoxon signed-rank test statistic:", w1)
+    print("pvalue:", p1)
     alpha = 0.05
     if p1 < alpha:
-        print("拒绝原假设，您的方法的偏差显著小于基线方法的偏差。")
+        print("Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.")
     else:
-        print("不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。")
+        print(
+            "Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods."
+        )
 
     print(f"\n{app} v.s. Dare\n")
     w2, p2 = wilcoxon(df[app].to_list(), df["Dare"].to_list(), alternative="greater")
-    print("Wilcoxon Test统计量:", w2)
-    print("单侧P值:", p2)
+    print("Wilcoxon signed-rank test statistic:", w2)
+    print("pvalue:", p2)
     alpha = 0.05
     if p2 < alpha:
-        print("拒绝原假设，您的方法的偏差显著小于基线方法的偏差。")
+        print("Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.")
     else:
-        print("不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。")
+        print(
+            "Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods."
+        )
 
 print("-" * 120)
+
+# if __name__ == "__main__":
+#     w, p = wilcoxon([92.3, 91.4, 92.2, 91.8, 92.0, 91.5, 91.9, 92.3, 92.1], [75.5, 76.0, 75.4, 77.3, 74.9, 76.3, 77.8, 75.3, 75.4],
+#                     alternative="greater")
+#     print("Wilcoxon signed-rank test statistic:", w)
+#     print("pvalue:", p)
+#     alpha = 0.05
+#     if p < alpha:
+#         print("Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.")
+#     else:
+#         print(
+#             "Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods."
+#         )

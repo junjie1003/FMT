@@ -14,13 +14,8 @@ def default_preprocessing_compas(df):
     """Perform the same preprocessing as the original analysis:
     https://github.com/propublica/compas-analysis/blob/master/Compas%20Analysis.ipynb
     """
-    return df[
-        (df.days_b_screening_arrest <= 30)
-        & (df.days_b_screening_arrest >= -30)
-        & (df.is_recid != -1)
-        & (df.c_charge_degree != "O")
-        & (df.score_text != "N/A")
-    ]
+    return df[(df.days_b_screening_arrest <= 30) & (df.days_b_screening_arrest >= -30) & (df.is_recid != -1) & (df.c_charge_degree != "O") &
+              (df.score_text != "N/A")]
 
 
 def default_preprocessing_german(df):
@@ -273,9 +268,7 @@ def get_data(dataset, protected, rand):
         na_values = []
         custom_preprocessing = default_preprocessing_compas
 
-        filepath = os.path.join(
-            os.path.dirname(os.path.abspath(__file__)), "data", "raw", "compas", "compas-scores-two-years.csv"
-        )
+        filepath = os.path.join(os.path.dirname(os.path.abspath(__file__)), "data", "raw", "compas", "compas-scores-two-years.csv")
 
         df = pd.read_csv(filepath, index_col="id", na_values=na_values)
         print(df)
@@ -467,9 +460,9 @@ def get_data(dataset, protected, rand):
         for col in columns:
             f.write(col + "\n")
 
-    dataset_orig_train = dataset_orig.iloc[0 : len(df_train)]
-    dataset_orig_test = dataset_orig.iloc[len(df_train) : (len(df_train) + len(df_test))]
-    dataset_orig_mutation = dataset_orig.iloc[(len(df_train) + len(df_test)) : (len(df_train) + len(df_test) + len(df_mutation))]
+    dataset_orig_train = dataset_orig.iloc[0:len(df_train)]
+    dataset_orig_test = dataset_orig.iloc[len(df_train):(len(df_train) + len(df_test))]
+    dataset_orig_mutation = dataset_orig.iloc[(len(df_train) + len(df_test)):(len(df_train) + len(df_test) + len(df_mutation))]
     dataset_orig_mutation.drop(dataset_orig_mutation.columns[-1], axis=1, inplace=True)
     print(dataset_orig_train)
     print(dataset_orig_test)
@@ -481,6 +474,13 @@ def get_data(dataset, protected, rand):
 
     x_train = dataset_orig_train[:, :-1]
     print(x_train.shape)
+
+    x_train_supp = np.delete(x_train, columns.index(protected), axis=1)
+    print(x_train_supp.shape)
+    print(x_train_supp)
+
+    if not os.path.exists("data/processed/%s/%s_x_train_supp.npy" % (dataset, dataset)):
+        np.save("data/processed/%s/%s_x_train_supp.npy" % (dataset, dataset), x_train)
 
     train_labels = dataset_orig_train[:, -1]
     y_train = []
@@ -499,6 +499,13 @@ def get_data(dataset, protected, rand):
 
     x_test = dataset_orig_test[:, :-1]
     print(x_test.shape)
+
+    x_test_supp = np.delete(x_test, columns.index(protected), axis=1)
+    print(x_test_supp.shape)
+    print(x_test_supp)
+
+    if not os.path.exists("data/processed/%s/%s_x_test_supp.npy" % (dataset, dataset)):
+        np.save("data/processed/%s/%s_x_test_supp.npy" % (dataset, dataset), x_test)
 
     test_labels = dataset_orig_test[:, -1]
     y_test = []
@@ -526,9 +533,7 @@ def get_data(dataset, protected, rand):
 
 def parse_opt():
     parser = argparse.ArgumentParser()
-    parser.add_argument(
-        "-d", "--dataset", type=str, required=True, choices=["adult", "bank", "compas", "german"], help="Dataset name"
-    )
+    parser.add_argument("-d", "--dataset", type=str, required=True, choices=["adult", "bank", "compas", "german"], help="Dataset name")
     parser.add_argument("-p", "--protected", type=str, required=True, help="Protected attribute")
     parser.add_argument(
         "-r",

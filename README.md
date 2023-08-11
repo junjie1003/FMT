@@ -5,15 +5,15 @@ Particularly, the implementation and experimental results of our paper regarding
 
 ## Experimental Environment
 
-We use Python 3.6 for our experiments. We use the IBM AI Fairness 360 (AIF360) toolkit for implementing fairness improvement methods and computing fairness metrics.
+We use Python 3.7 for our experiments. We use the IBM AI Fairness 360 (AIF360) toolkit for implementing fairness improvement methods and computing fairness metrics.
 
-Installation instructions for Python 3.6 and AIF360 can be found on [https://github.com/Trusted-AI/AIF360](https://github.com/Trusted-AI/AIF360). That page provides several ways for the installation. We recommend creating a virtual environment for it (as shown below), because AIF360 requires specific versions of many Python packages which may conflict with other projects on your system. If you would like to try other installation ways or encounter any errors during the installation proces, please refer to the page ([https://github.com/Trusted-AI/AIF360](https://github.com/Trusted-AI/AIF360)) for help.
+Installation instructions for Python 3.7 and AIF360 can be found on [https://github.com/Trusted-AI/AIF360](https://github.com/Trusted-AI/AIF360). That page provides several ways for the installation. We recommend creating a virtual environment for it (as shown below), because AIF360 requires specific versions of many Python packages which may conflict with other projects on your system. If you would like to try other installation ways or encounter any errors during the installation proces, please refer to the page ([https://github.com/Trusted-AI/AIF360](https://github.com/Trusted-AI/AIF360)) for help.
 
 ### Conda
 
 Conda is recommended for all configurations. [Miniconda](https://conda.io/miniconda.html) is sufficient if you do not already have conda installed.
 
-Then, to create a new Python 3.6 environment, run:
+Then, to create a new Python 3.7 environment, run:
 
 ```bash
 conda create --name fmt python=3.7
@@ -26,11 +26,17 @@ pip install -r requirements.txt
 
 We use the 4 default datasets supported by the AIF360 toolkit. **When running the scripts that invoke these datasets, you will be prompted how to download these datasets and in which folders they need to be placed.** You can also refer to [https://github.com/Trusted-AI/AIF360/tree/master/aif360/data](https://github.com/Trusted-AI/AIF360/tree/master/aif360/data) for the raw data files.
 
-![datasets](figures/datasets.png)
+![datasets](figures/table6.png)
 
 Dare uses half of the training set to train the model, and our data partitioning is stored in the data folder, while the original model used is stored in the models folder.
 
 Dare needs to use the trained historical model to perform the data augmentation process and collect training data for fine-tuning. However, due to the large number of historical models, it is not possible to upload all of them. Therefore, we provide the intermediate results of data augmentation, 'dataset_model_modify' is used to mark the selected training data, 'dataset_model_rs' is the standard output collected for training data. In addition, another time-consuming part is generating adversarial samples, so we store adversarial data in the adv folder. You can refer to [https://mega.nz/folder/1alCBThJ#JLh9CC6lY0FpOIP6icgh8w](https://mega.nz/folder/1alCBThJ#JLh9CC6lY0FpOIP6icgh8w) for all the data files used for DARE.
+
+## Wilcoxon Signed-Rank Test
+
+For FMT, we present the p-value results of our calculations using the Wilcoxon signed-rank test against all baseline methods, as shown in the following table:
+
+![pvalue](figures/table.png)
 
 ## Scripts and Results
 
@@ -40,6 +46,7 @@ The repository contains the following files and folders:
 - `DARE/` contains code for the implementation of our DARE method.
 - `data/` contains original datasets and our processed data.
 - `datasets/` contains code for processing raw datasets.
+- `examples/` contains script files for running the code of all methods.
 - `features/` contains json files for feature mapping when processing datasets.
 - `models/` contains our trained source model used for the following fairness improvement.
 - `plot/` contains code for drawing plots and pictures.

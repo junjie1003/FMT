@@ -15,51 +15,51 @@ Testwith: CW
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003736770770438521
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003736770770438521
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9962632292295615
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9962632292295615
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG16
 Dataset: CIFAR10
@@ -78,51 +78,51 @@ Testwith: FGSM
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG16
 Dataset: CIFAR10
@@ -141,51 +141,51 @@ Testwith: JSMA
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG16
 Dataset: CIFAR10
@@ -204,51 +204,51 @@ Testwith: PGD
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0037896409716948643
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0037896409716948643
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9962103590283051
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9962103590283051
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG16
 Dataset: SVHN
@@ -267,51 +267,51 @@ Testwith: CW
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG16
 Dataset: SVHN
@@ -330,51 +330,51 @@ Testwith: FGSM
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG16
 Dataset: SVHN
@@ -393,51 +393,51 @@ Testwith: JSMA
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG16
 Dataset: SVHN
@@ -456,51 +456,51 @@ Testwith: PGD
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG16
 Dataset: FM
@@ -519,51 +519,51 @@ Testwith: CW
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 7.0
-单侧P值: 0.9668419843505346
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 7.0
+pvalue: 0.9668419843505346
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 38.0
-单侧P值: 0.0331580156494654
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 38.0
+pvalue: 0.0331580156494654
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG16
 Dataset: FM
@@ -582,51 +582,51 @@ Testwith: FGSM
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 15.5
-单侧P值: 0.6370181868749213
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 15.5
+pvalue: 0.6370181868749213
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 20.5
-单侧P值: 0.3629818131250787
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 20.5
+pvalue: 0.3629818131250787
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 7.0
-单侧P值: 0.9670800111514593
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 7.0
+pvalue: 0.9670800111514593
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 38.0
-单侧P值: 0.03291998884854075
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 38.0
+pvalue: 0.03291998884854075
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG16
 Dataset: FM
@@ -645,51 +645,51 @@ Testwith: JSMA
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 32.5
-单侧P值: 0.020905271488289405
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 32.5
+pvalue: 0.020905271488289405
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 3.5
-单侧P值: 0.9790947285117106
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 3.5
+pvalue: 0.9790947285117106
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG16
 Dataset: FM
@@ -708,51 +708,51 @@ Testwith: PGD
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 31.0
-单侧P值: 0.0343517871614391
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 31.0
+pvalue: 0.0343517871614391
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 5.0
-单侧P值: 0.965648212838561
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 5.0
+pvalue: 0.965648212838561
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 43.0
-单侧P值: 0.007577986940487303
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 43.0
+pvalue: 0.007577986940487303
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 2.0
-单侧P值: 0.9924220130595127
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 2.0
+pvalue: 0.9924220130595127
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 29.0
-单侧P值: 0.22063406666446483
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 29.0
+pvalue: 0.22063406666446483
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 16.0
-单侧P值: 0.7793659333355352
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 16.0
+pvalue: 0.7793659333355352
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG19
 Dataset: CIFAR10
@@ -771,51 +771,51 @@ Testwith: CW
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9962103590283051
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9962103590283051
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0037896409716948643
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0037896409716948643
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG19
 Dataset: CIFAR10
@@ -834,51 +834,51 @@ Testwith: FGSM
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG19
 Dataset: CIFAR10
@@ -897,51 +897,51 @@ Testwith: JSMA
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 14.0
-单侧P值: 0.8432433828117809
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 14.0
+pvalue: 0.8432433828117809
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 31.0
-单侧P值: 0.15675661718821904
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 31.0
+pvalue: 0.15675661718821904
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 5.0
-单侧P值: 0.9809241449132924
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 5.0
+pvalue: 0.9809241449132924
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 40.0
-单侧P值: 0.019075855086707567
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 40.0
+pvalue: 0.019075855086707567
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 13.0
-单侧P值: 0.8706423416025928
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 13.0
+pvalue: 0.8706423416025928
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 32.0
-单侧P值: 0.12935765839740715
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 32.0
+pvalue: 0.12935765839740715
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG19
 Dataset: CIFAR10
@@ -960,51 +960,51 @@ Testwith: PGD
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG19
 Dataset: SVHN
@@ -1023,51 +1023,51 @@ Testwith: CW
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG19
 Dataset: SVHN
@@ -1086,51 +1086,51 @@ Testwith: FGSM
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG19
 Dataset: SVHN
@@ -1149,51 +1149,51 @@ Testwith: JSMA
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG19
 Dataset: SVHN
@@ -1212,51 +1212,51 @@ Testwith: PGD
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG19
 Dataset: FM
@@ -1275,51 +1275,51 @@ Testwith: CW
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG19
 Dataset: FM
@@ -1338,51 +1338,51 @@ Testwith: FGSM
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 43.0
-单侧P值: 0.007577986940487303
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 43.0
+pvalue: 0.007577986940487303
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 2.0
-单侧P值: 0.9924220130595127
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 2.0
+pvalue: 0.9924220130595127
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 3.0
-单侧P值: 0.9895603684168242
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 3.0
+pvalue: 0.9895603684168242
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 42.0
-单侧P值: 0.010439631583175821
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 42.0
+pvalue: 0.010439631583175821
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG19
 Dataset: FM
@@ -1401,51 +1401,51 @@ Testwith: JSMA
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 3.0
-单侧P值: 0.9895603684168242
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 3.0
+pvalue: 0.9895603684168242
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 42.0
-单侧P值: 0.010439631583175821
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 42.0
+pvalue: 0.010439631583175821
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 40.0
-单侧P值: 0.019075855086707567
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 40.0
+pvalue: 0.019075855086707567
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 5.0
-单侧P值: 0.9809241449132924
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 5.0
+pvalue: 0.9809241449132924
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 19.5
-单侧P值: 0.6389754289245914
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 19.5
+pvalue: 0.6389754289245914
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 25.5
-单侧P值: 0.36102457107540864
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 25.5
+pvalue: 0.36102457107540864
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: VGG19
 Dataset: FM
@@ -1464,51 +1464,51 @@ Testwith: PGD
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 44.0
-单侧P值: 0.005431112352407814
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 44.0
+pvalue: 0.005431112352407814
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 1.0
-单侧P值: 0.9945688876475922
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 1.0
+pvalue: 0.9945688876475922
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: Alexnet
 Dataset: CIFAR10
@@ -1527,51 +1527,51 @@ Testwith: CW
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003736770770438521
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003736770770438521
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9962632292295615
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9962632292295615
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: Alexnet
 Dataset: CIFAR10
@@ -1590,51 +1590,51 @@ Testwith: FGSM
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: Alexnet
 Dataset: CIFAR10
@@ -1653,51 +1653,51 @@ Testwith: JSMA
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: Alexnet
 Dataset: CIFAR10
@@ -1716,51 +1716,51 @@ Testwith: PGD
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: Alexnet
 Dataset: SVHN
@@ -1779,51 +1779,51 @@ Testwith: CW
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 2.0
-单侧P值: 0.9924220130595127
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 2.0
+pvalue: 0.9924220130595127
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 43.0
-单侧P值: 0.007577986940487303
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 43.0
+pvalue: 0.007577986940487303
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: Alexnet
 Dataset: SVHN
@@ -1842,51 +1842,51 @@ Testwith: FGSM
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 34.0
-单侧P值: 0.01253092217194181
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 34.0
+pvalue: 0.01253092217194181
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 2.0
-单侧P值: 0.9874690778280582
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 2.0
+pvalue: 0.9874690778280582
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: Alexnet
 Dataset: SVHN
@@ -1905,51 +1905,51 @@ Testwith: JSMA
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003736770770438521
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003736770770438521
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9962632292295615
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9962632292295615
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 16.5
-单侧P值: 0.7615951196511395
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 16.5
+pvalue: 0.7615951196511395
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 28.5
-单侧P值: 0.2384048803488606
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 28.5
+pvalue: 0.2384048803488606
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: Alexnet
 Dataset: SVHN
@@ -1968,51 +1968,51 @@ Testwith: PGD
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 36.0
-单侧P值: 0.05487231937350664
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 36.0
+pvalue: 0.05487231937350664
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 9.0
-单侧P值: 0.9451276806264933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 9.0
+pvalue: 0.9451276806264933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: Alexnet
 Dataset: FM
@@ -2031,51 +2031,51 @@ Testwith: CW
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: Alexnet
 Dataset: FM
@@ -2094,51 +2094,51 @@ Testwith: FGSM
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: Alexnet
 Dataset: FM
@@ -2157,51 +2157,51 @@ Testwith: JSMA
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
 Model: Alexnet
 Dataset: FM
@@ -2220,49 +2220,49 @@ Testwith: PGD
 
 Dare v.s. CW
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.003816220824102754
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.003816220824102754
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 CW v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961837791758973
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961837791758973
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. FGSM
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0037896409716948643
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0037896409716948643
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 FGSM v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9962103590283051
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9962103590283051
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. JSMA
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 JSMA v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 
 Dare v.s. PGD
 
-Wilcoxon Test统计量: 45.0
-单侧P值: 0.0038428970276066315
-拒绝原假设，您的方法的偏差显著小于基线方法的偏差。
+Wilcoxon signed-rank test statistic: 45.0
+pvalue: 0.0038428970276066315
+Rejecting the null hypothesis, your method exhibits a significantly smaller bias than the baseline methods.
 
 PGD v.s. Dare
 
-Wilcoxon Test统计量: 0.0
-单侧P值: 0.9961571029723933
-不能拒绝原假设，您的方法的偏差与基线方法的偏差无显著差异。
+Wilcoxon signed-rank test statistic: 0.0
+pvalue: 0.9961571029723933
+Failing to reject the null hypothesis, there is no significant difference in bias between your method and the baseline methods.
 ------------------------------------------------------------------------------------------------------------------------
